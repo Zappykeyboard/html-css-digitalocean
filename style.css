@@ -1,18 +1,17 @@
-
 /*header*/
 
- header nav:first-child{
-   margin: 0 auto;
-   min-height: 40px;
-   max-height: 40px;
-   background: none;
- }
+header nav:first-child {
+  margin: 0 auto;
+  min-height: 40px;
+  max-height: 40px;
+  background: white;
+}
 
- header nav:first-child div div{
+header nav:first-child div div {
   padding: 10px 0;
- }
+}
 
-header nav:nth-child(2){
+header nav:nth-child(2) {
   background: none;
   border-bottom: none;
   border-left: none;
@@ -21,54 +20,59 @@ header nav:nth-child(2){
   margin: 0 auto;
 }
 
-header nav:nth-child(2) a.navbar-brand{
+header nav:nth-child(2) a.navbar-brand {
   padding: 5px 0;
 }
 
-@media all and (max-width: 1200px){
-  header nav:nth-child(2){
-  background: #0248ff;
+@media all and (max-width: 1200px) {
+  header nav:nth-child(2) {
+    background: #0248ff;
   }
 }
 
 /*main*/
 
 /*mast*/
-#mast{
+
+#mast {
   background: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg) no-repeat;
   background-size: cover;
   margin: 0 auto;
+  min-height: 700px;
 }
 
-@media all and (max-width: 1200px ){
-  #mast{
+@media all and (max-width: 1200px) {
+  #mast {
     background: #0248ff
   }
 }
 
-  /*prima colonna*/
-  #mast .row div:first-child{
-    color: white;
-    margin: 7% 5%;
-  }
+/*prima colonna*/
 
-  /*seconda colonna*/
-  #mast .row div:nth-child(2){
-    background: white;
-    margin: 7% 5%;
-    vertical-align: middle;
-    border-radius: 5px;
-    width: 30%;
-  }
+#mast .row div:first-child {
+  color: white;
+  font-size: 3rem;
+  margin: 7% 5%;
+}
 
-  #mast .row div:nth-child(2) .input-group{
-    width: 90%;
-  } 
+/*seconda colonna*/
 
-  #mast .row div:nth-child(2) button{
-    width: 100%;
-  }
+#mast .row div:nth-child(2) {
+  background: white;
+  margin: 7% 5%;
+  vertical-align: middle;
+  border-radius: 5px;
+  width: 30%;
+}
 
-  #mast .row div:nth-child(2) .input-group *{
-    margin: 10px auto;
-  }
+#mast .row div:nth-child(2) .input-group {
+  width: 90%;
+}
+
+#mast .row div:nth-child(2) button {
+  width: 100%;
+}
+
+#mast .row div:nth-child(2) .input-group * {
+  margin: 10px auto;
+}
