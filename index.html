@@ -15,29 +15,32 @@
   <!-- Header-->
   <header>
     <!--navbar 1, scompare in mobile e tablet-->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-
+    <nav class="navbar navbar-default visible-lg-block visible-md-block">
+      <div class="container">
+        <div>
+          <span class="navbar-right">Lorem</span>
+          <span class="navbar-left">Lorem</span>
+        </div>
       </div>
     </nav>
     <!--navbar 2, collassa-->
     <nav class="navbar navbar-default">
-      <div class="container-fluid">
+      <div class="container">
         <!--mobile-->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" aria-expanded="false">
+        <div class="navbar-header hidden-lg">
+          <button type="button" class="navbar-toggle " aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!--           <a class="navbar-brand desktop" href="#"><img src="img/logo-mobile.png" alt=""></a>
- -->
+          <a class="navbar-brand hidden-lg" href="#"><img src="img/logo-mobile.png" alt=""></a>
+
         </div>
 
         <!--navbar vera e propria-->
         <div class="collapse navbar-collapse">
-          <a class="navbar-brand mobile" href="#"><img src="img/logo-desktop.png" alt=""></a>
+          <a class="navbar-brand visible-lg-block" href="#"><img src="img/logo-desktop.png" alt=""></a>
 
         </div>
       </div>
@@ -52,11 +55,16 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-6">
-            Lorem
+            <h1>Welcome to the <br>
+              developer cloud </h1>
+            <p>We make it simple to launch in the cloud and scale up as you grow—whether you’re running one virtual
+              machine or ten thousand. </p>
           </div>
 
           <div class="col-xs-12 col-md-6">
-            Lorem Lorem
+           <div class="input-group">
+
+           </div>
           </div>
         </div>
       </div>
@@ -65,10 +73,11 @@
     <!--partners-->
     <section id="partners">
       <div class="container">
-        <h2> Innovative businesses trust DigitalOcean </h2>
+        <h2 class="text-center"> Innovative businesses trust DigitalOcean </h2>
 
         <!--questo blocco scompare in modalità desktop-->
         <div class="row">
+
           <div class="col-xs-6 hidden-md hidden-lg">
             <div>partner</div>
             <div>partner</div>
@@ -82,7 +91,7 @@
         </div>
 
         <!--questo blocco scompare in modalità tablet-->
-        <div class="partner-logos hidden-xs hidden-sm">
+        <div class="partner-logos text-center hidden-xs hidden-sm">
           <span>partner</span><span>partner</span><span>partner</span><span>partner</span><span>partner</span><span>partner</span>
         </div>
       </div>
@@ -201,7 +210,7 @@
 
         <!--links-->
         <div class="col-xs-6 col-md-2">
-        Lorem
+          Lorem
         </div>
         <div class="col-xs-6 col-md-2">
           Lorem

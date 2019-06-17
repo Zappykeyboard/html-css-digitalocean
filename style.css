@@ -1,2 +1,51 @@
 
 /*header*/
+
+ header nav:first-child{
+   margin: 0 auto;
+   min-height: 40px;
+   max-height: 40px;
+   background: none;
+ }
+
+ header nav:first-child div div{
+  padding: 10px 0;
+ }
+
+header nav:nth-child(2){
+  background: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  margin: 0 auto;
+}
+
+header nav:nth-child(2) a.navbar-brand{
+  padding: 5px 0;
+}
+
+@media all and (max-width: 1200px){
+  header nav:nth-child(2){
+  background: #0248ff;
+  }
+}
+
+/*main*/
+
+/*mast*/
+#mast{
+  background: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg) no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+@media all and (max-width: 1200px ){
+  #mast{
+    background: #0248ff
+  }
+}
+
+#mast .row>div{
+  color: white;
+}
