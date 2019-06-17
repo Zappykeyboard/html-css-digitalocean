@@ -46,6 +46,29 @@ header nav:nth-child(2) a.navbar-brand{
   }
 }
 
-#mast .row>div{
-  color: white;
-}
+  /*prima colonna*/
+  #mast .row div:first-child{
+    color: white;
+    margin: 7% 5%;
+  }
+
+  /*seconda colonna*/
+  #mast .row div:nth-child(2){
+    background: white;
+    margin: 7% 5%;
+    vertical-align: middle;
+    border-radius: 5px;
+    width: 30%;
+  }
+
+  #mast .row div:nth-child(2) .input-group{
+    width: 90%;
+  } 
+
+  #mast .row div:nth-child(2) button{
+    width: 100%;
+  }
+
+  #mast .row div:nth-child(2) .input-group *{
+    margin: 10px auto;
+  }
