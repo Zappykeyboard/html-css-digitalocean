@@ -71,7 +71,8 @@ header nav:nth-child(2) a.navbar-brand {
   margin: auto;
   vertical-align: middle;
   border-radius: 5px;
-  width: 70%;
+  width: 100%;
+  max-width: 400px;
   padding: 50px 10px;
 }
 
@@ -91,10 +92,10 @@ header nav:nth-child(2) a.navbar-brand {
 /*partners*/
 #partners {
   background: #f3f5f9;
+  padding: 100px 0;
 }
 
 #partners  .hidden-md img{
-  width: 70%;
   height: 150px;
 }
 
@@ -103,7 +104,7 @@ header nav:nth-child(2) a.navbar-brand {
   width: calc(100% / 7);
 }
 #partners .hidden-xs img{
-  width: 120px;
+  max-width: 100%;
   height: 100px;
 }
 
@@ -160,7 +161,7 @@ header nav:nth-child(2) a.navbar-brand {
   padding: 5% 30px;
   width: 100%; 
   max-width: 700px;
- 
+
   margin: 5% auto;
 }
 
@@ -170,9 +171,11 @@ header nav:nth-child(2) a.navbar-brand {
   background-size: cover;
   margin: 0 auto;
   height: 200px;
+  text-align: center;
 }
 
 #call-to-action h2{
+  margin-top: 0;
   color: white;
   padding-top: 60px;
 }
