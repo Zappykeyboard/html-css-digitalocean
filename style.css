@@ -127,3 +127,14 @@ header nav:nth-child(2) a.navbar-brand {
 /* #features-2 .col-xs-12 .features-2-box{
   margin: 0 auto;
 } */
+
+
+/*regions*/
+#regions{
+  background: #031b4e;
+  color: white;
+}
+
+#regions .table tr:first-child td{
+  border-top: none;
+}
