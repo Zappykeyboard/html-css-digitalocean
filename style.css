@@ -147,8 +147,26 @@ header nav:nth-child(2) a.navbar-brand {
 
 #endorsements .quote-box{
   background: white;
-  padding: 5% 0;
+  padding: 5% 30px;
   width: 100%; 
-  max-width: 600px;
+  max-width: 700px;
+ 
   margin: 5% auto;
+}
+
+/*call to action*/
+#call-to-action{
+  background: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg) no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  height: 200px;
+}
+
+#call-to-action h2{
+  color: white;
+  padding-top: 60px;
+}
+
+#call-to-action button{
+  height: 40px;
 }
