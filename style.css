@@ -138,3 +138,17 @@ header nav:nth-child(2) a.navbar-brand {
 #regions .table tr:first-child td{
   border-top: none;
 }
+
+/*endorsements*/
+
+#endorsements{
+  background: #f3f5f9;
+}
+
+#endorsements .quote-box{
+  background: white;
+  padding: 5% 0;
+  width: 100%; 
+  max-width: 600px;
+  margin: 5% auto;
+}
