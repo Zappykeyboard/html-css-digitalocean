@@ -105,4 +105,11 @@ header nav:nth-child(2) a.navbar-brand {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+  padding: 7% 0;
+}
+
+#features .features-container .col-xs-12 div {
+  border-left: 1px solid gray;
+  padding: 5px;
+  color: rgba(3,27,78,.75);
 }
