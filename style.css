@@ -79,6 +79,9 @@ header nav:nth-child(2) a.navbar-brand {
 
 
 /*partners*/
+#partners {
+  background: #f3f5f9;
+}
 
 #partners  .hidden-md img{
   width: 70%;
