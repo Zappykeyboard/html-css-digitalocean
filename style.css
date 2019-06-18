@@ -93,3 +93,13 @@ header nav:nth-child(2) a.navbar-brand {
   width: 120px;
   height: 100px;
 }
+
+/*features*/
+
+/*riduco dimensioni container*/
+
+#features .features-container{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
