@@ -121,5 +121,9 @@ header nav:nth-child(2) a.navbar-brand {
 /*slider*/
 #slider{
   background: #f3f5f9;
-
 }
+
+/*features-2*/
+/* #features-2 .col-xs-12 .features-2-box{
+  margin: 0 auto;
+} */
