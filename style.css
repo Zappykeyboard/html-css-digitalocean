@@ -31,8 +31,21 @@ header nav:nth-child(2) a.navbar-brand {
 } */
 
 
+#nav-desktop{
+  background: white;
+}
 
+#nav-desktop .promo li{
+  list-style: none;
+  display: inline-block
+}
 
+#nav-desktop .promo a{
+  color: #818da6;
+}
+#nav-desktop .promo a:hover{
+  text-decoration: none;
+}
 
 /*main*/
 
