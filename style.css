@@ -38,7 +38,7 @@ header nav:nth-child(2) a.navbar-brand {
   background: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg) no-repeat;
   background-size: cover;
   margin: 0 auto;
-  min-height: 700px;
+  min-height: 500px;
 }
 
 @media all and (max-width: 1200px) {
@@ -75,4 +75,21 @@ header nav:nth-child(2) a.navbar-brand {
 
 #mast .row div:nth-child(2) .input-group * {
   margin: 10px auto;
+}
+
+
+/*partners*/
+
+#partners  .hidden-md img{
+  width: 70%;
+  height: 150px;
+}
+
+#partners .hidden-xs div{
+  display: inline-block;
+  width: calc(100% / 7);
+}
+#partners .hidden-xs img{
+  width: 120px;
+  height: 100px;
 }
