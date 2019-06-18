@@ -1,6 +1,6 @@
 /*header*/
 
-header nav:first-child {
+/* header nav:first-child {
   margin: 0 auto;
   min-height: 40px;
   max-height: 40px;
@@ -28,7 +28,11 @@ header nav:nth-child(2) a.navbar-brand {
   header nav:nth-child(2) {
     background: #0248ff;
   }
-}
+} */
+
+
+
+
 
 /*main*/
 
@@ -38,7 +42,7 @@ header nav:nth-child(2) a.navbar-brand {
   background: #0248ff url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg) no-repeat;
   background-size: cover;
   margin: 0 auto;
-  min-height: 500px;
+  min-height: 700px;
 }
 
 @media all and (max-width: 1200px) {
@@ -49,33 +53,39 @@ header nav:nth-child(2) a.navbar-brand {
 
 /*prima colonna*/
 
-#mast .row div:first-child {
+
+#mast {
+  padding: 15% 0;
+}
+
+#mast .mast-title {
   color: white;
   font-size: 3rem;
-  margin: 7% 5%;
+  margin-right:5%;
 }
 
 /*seconda colonna*/
 
-#mast .row div:nth-child(2) {
+#mast .mast-input {
   background: white;
-  margin: 7% 5%;
+  margin: auto;
   vertical-align: middle;
   border-radius: 5px;
-  width: 30%;
+  width: 70%;
+  padding: 50px 10px;
 }
 
-#mast .row div:nth-child(2) .input-group {
+ #mast .mast-input .input-group {
   width: 90%;
 }
 
-#mast .row div:nth-child(2) button {
+#mast .mast-input button {
   width: 100%;
 }
 
-#mast .row div:nth-child(2) .input-group * {
+#mast .mast-input .input-group * {
   margin: 10px auto;
-}
+} 
 
 
 /*partners*/
@@ -185,6 +195,12 @@ footer a{
 footer a:hover{
   color: white;
   text-decoration: none;
+}
+
+
+footer a span{
+  font-size: 20px;
+  margin: 20px 5px;
 }
 
 footer .section{
