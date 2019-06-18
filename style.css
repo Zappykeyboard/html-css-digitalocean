@@ -35,7 +35,7 @@ header nav:nth-child(2) a.navbar-brand {
 /*mast*/
 
 #mast {
-  background: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg) no-repeat;
+  background: #0248ff url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg) no-repeat;
   background-size: cover;
   margin: 0 auto;
   min-height: 500px;
@@ -156,7 +156,7 @@ header nav:nth-child(2) a.navbar-brand {
 
 /*call to action*/
 #call-to-action{
-  background: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg) no-repeat;
+  background: #0248ff url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg) no-repeat;
   background-size: cover;
   margin: 0 auto;
   height: 200px;
@@ -169,4 +169,33 @@ header nav:nth-child(2) a.navbar-brand {
 
 #call-to-action button{
   height: 40px;
+}
+
+/*footer*/
+footer{
+  background: #010d28;
+  color: #818da6;
+  padding: 50px 0;
+}
+
+footer a{
+  color: inherit;
+}
+
+footer a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+footer .section{
+  color: white;
+}
+
+footer ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+footer ul li{
+  padding: 5px 0;
 }
