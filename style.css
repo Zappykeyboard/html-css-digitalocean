@@ -35,9 +35,15 @@ header nav:nth-child(2) a.navbar-brand {
   background: white;
 }
 
+#nav-desktop .promo{
+  line-height: 25px;
+  font-size: 1.20rem
+}
+
 #nav-desktop .promo li{
   list-style: none;
-  display: inline-block
+  display: inline-block;
+  margin: 0 10px;
 }
 
 #nav-desktop .promo a{
@@ -45,6 +51,13 @@ header nav:nth-child(2) a.navbar-brand {
 }
 #nav-desktop .promo a:hover{
   text-decoration: none;
+}
+
+#nav-desktop .promo .promo-pill{
+  background:  #00d7d2;
+  border-radius: 3px;
+  padding: 3px;
+  margin-right: 5px
 }
 
 /*main*/
