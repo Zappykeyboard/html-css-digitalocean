@@ -210,6 +210,10 @@ header nav:nth-child(2) a.navbar-brand {
   padding: 10% 0;
 }
 
+#features h2{
+  color: #031b4e
+}
+
 #features .features-container {
   width: 100%;
   max-width: 800px;
@@ -233,6 +237,26 @@ header nav:nth-child(2) a.navbar-brand {
 #slider {
   background: #f3f5f9;
   padding: 10% 0;
+  
+}
+
+#slider .slider-title{
+  color: #031b4e;
+  font-size: 2rem
+}
+
+#slider .slider-subtitle{
+  font-size: 2rem;
+  color: #4b5c81;
+}
+
+#slider .slider-description{
+  font-size: 1.3rem;
+  color: #627293
+}
+#slider img{
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 /*Features-2*/
