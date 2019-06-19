@@ -208,6 +208,7 @@ header nav:nth-child(2) a.navbar-brand {
 /*adatto dimensioni container*/
 #features{
   padding: 10% 0;
+  font-size: 1.5rem;
 }
 
 #features h2{
@@ -221,10 +222,16 @@ header nav:nth-child(2) a.navbar-brand {
   padding: 7% 0;
 }
 
-#features .features-container .col-xs-12 div {
-  border-left: 1px solid gray;
+#features .features-container .features-selection div {
+  border-left: 2px solid #818da6;
   padding: 5px;
   color: #818da6;
+  font-weight: bold;
+}
+
+#features .features-selection div:hover{
+  color: #031b4e;
+  border-left: 2px solid  #031b4e
 }
 
 #features .feature-box {
