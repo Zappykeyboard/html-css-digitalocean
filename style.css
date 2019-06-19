@@ -36,7 +36,7 @@ header nav:nth-child(2) a.navbar-brand {
 }
 
 #nav-desktop .promo{
-  line-height: 25px;
+  padding-top: 15px;
   font-size: 1.20rem
 }
 
@@ -49,7 +49,8 @@ header nav:nth-child(2) a.navbar-brand {
 #nav-desktop .promo a{
   color: #818da6;
 }
-#nav-desktop .promo a:hover{
+#nav-desktop .promo a:hover,
+#nav-desktop .navigazione li a{
   text-decoration: none;
 }
 
@@ -60,6 +61,52 @@ header nav:nth-child(2) a.navbar-brand {
   margin-right: 5px
 }
 
+#nav-desktop hr{
+  margin: 0 auto;
+}
+
+#nav-desktop .navigazione{
+  padding: 20px 0;
+
+}
+
+#nav-desktop .navigazione ul{
+  display: inline-block;
+}
+#nav-desktop .navigazione li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#nav-desktop .navigazione li a{
+  color: #010d28;
+  font-weight: bold;
+}
+
+#nav-desktop .navigazione button{
+  margin-top: 6px;
+  color: #0069ff;
+  border: 1px solid #0069ff;
+  background: white;
+  border-radius: 5px;
+  line-height: 30px;
+  padding: 0 20px
+}
+
+#nav-desktop .navigazione button:hover{
+  color: white;
+  background: #0069ff;
+}
+
+
+#nav-desktop .products-popup{
+  display: none;
+}
+
+#nav-desktop .products-label:hover .products-popup{
+  display: block;
+}
 /*main*/
 
 /*mast*/
