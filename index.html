@@ -7,6 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+ <!--  <link rel="stylesheet" href="bootstrap.min.css"> -->
   <link rel="stylesheet" href="style.css">
   <title>DigitalOcean</title>
 </head>
@@ -14,49 +16,19 @@
 <body>
   <!-- Header-->
   <header>
-    <!-- 
-    
-    <nav class="navbar navbar-default visible-lg-block visible-md-block">
-      <div class="container">
-        <div>
-          <span class="navbar-right">Lorem</span>
-          <span class="navbar-left">Lorem</span>
-        </div>
-      </div>
-    </nav>
-    
-    <nav class="navbar navbar-default ">
-      <div class="container">
-        
-        <div class="navbar-header hidden-lg">
-          <button type="button" class="navbar-toggle " aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand hidden-lg" href="#"><img src="img/logo-mobile.png" alt=""></a>
-
-        </div>
-
-       
-        <div class="collapse navbar-collapse ">
-          <a class="navbar-brand visible-lg-block" href="#"><img src="img/logo-desktop.png" alt=""></a>
-
-        </div>
-      </div>
-    </nav> -->
 
     <!--navbar desktop-->
     <nav id="nav-desktop" class="visible-lg-block navbar-fixed-top">
 
       <div class="container">
         <div class="promo">
-          <span class="promo-pill">NEW</span>
-          <span class="promo-link">
-            <a href="#"> DigitalOcean Kubernetes is now Generally Available. Learn more</a>
-          </span>
-          <ul class="pull-right">
+          <div>
+            <span class="promo-pill">NEW</span>
+            <span class="promo-link">
+              <a href="#"> DigitalOcean Kubernetes is now Generally Available. Learn more</a>
+            </span>
+          </div>
+          <ul>
             <li>
               <a href="#">Docs</a>
             </li>
@@ -72,10 +44,13 @@
           </ul>
         </div>
       </div>
+      
       <hr>
+
       <div class="container">
-        <div class="navigazione">
-          <img src="img/logo-desktop.png" alt="">
+        <div class="navigazione">      
+          <div class="flex-container">
+        <img src="img/logo-desktop.png" alt="">
           <ul>
             <li class="products-label">
               <a href="#">Products v</a>
@@ -96,18 +71,12 @@
               <a href="#">Pricing</a>
             </li>
           </ul>
-          <button class="nav-sign-up pull-right">Sign Up</button>
+        </div>
+          <button class="nav-sign-up">Sign Up</button>
         </div>
       </div>
     </nav>
 
-    <!--popup prodotti-->
-    <!--   <div class="products-popup"></div>
-      <div class="container">
-        Lorem!
-      </div>
-    </div>
-     -->
     <!--navabar mobile-->
     <nav id="nav-mobile" class="hidden-lg">
       <div class="container-fluid">

@@ -1,50 +1,29 @@
 /*header*/
 
-/* header nav:first-child {
-  margin: 0 auto;
-  min-height: 40px;
-  max-height: 40px;
-  background: white;
-}
-
-header nav:first-child div div {
-  padding: 10px 0;
-}
-
-header nav:nth-child(2) {
-  background: none;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
-  border-radius: 0;
-  margin: 0 auto;
-}
-
-header nav:nth-child(2) a.navbar-brand {
-  padding: 5px 0;
-}
-
-@media all and (max-width: 1200px) {
-  header nav:nth-child(2) {
-    background: #0248ff;
-  }
-} */
-
 /*navigazione desktop*/
 
 #nav-desktop {
   background: white;
+
 }
 
 #nav-desktop .promo {
-  padding-top: 15px;
-  font-size: 1.20rem
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.20rem;
+  padding: 10px 0;
+}
+
+#nav-desktop .promo ul{
+  align-self: center;
+  margin-bottom: 0px;
 }
 
 #nav-desktop .promo li {
   list-style: none;
   display: inline-block;
-  margin: 0 10px;
+  margin: auto 10px;
 }
 
 #nav-desktop .promo a {
@@ -62,21 +41,31 @@ header nav:nth-child(2) a.navbar-brand {
   margin-right: 5px
 }
 
+/*-----------------*/
 #nav-desktop hr {
   margin: 0 auto;
 }
 
+/*----------------*/
+
 #nav-desktop .navigazione {
   padding: 20px 0;
+  display: flex;
+  align-content: center;
+  justify-content: space-between
 }
 
+#nav-desktop .flex-container{
+  display: flex;
+}
 #nav-desktop .navigazione ul {
-  display: inline-block;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
 }
 
 #nav-desktop .navigazione li {
   list-style: none;
-  display: inline-block;
   margin: 0 10px;
 }
 
@@ -85,31 +74,22 @@ header nav:nth-child(2) a.navbar-brand {
   font-weight: bold;
 }
 
-#nav-desktop .navigazione button {
-  margin-top: 6px;
+#nav-desktop .navigazione .nav-sign-up {
   color: #0069ff;
   border: 1px solid #0069ff;
   background: white;
   border-radius: 5px;
   line-height: 30px;
-  padding: 0 20px
+  padding: 0 20px;
+
 }
 
-#nav-desktop .navigazione button:hover {
+#nav-desktop .navigazione .nav-sign-up:hover {
   color: white;
   background: #0069ff;
 }
 
-/* header .products-popup {
-  display: none;
-}
 
-#navbar .products-label:hover  header~.products-popup {
-  display: block;
-  height: 30vh;
-  background: white;
-}
- */
 /*navigazione tablet/mobile*/
 
 #nav-mobile {
