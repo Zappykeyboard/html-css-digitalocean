@@ -94,13 +94,14 @@
 
 #nav-mobile {
   background: #0248ff;
-  padding-top: 20px;
 }
 
-.hamburger{
-  padding-top: 10px;
-
+#nav-mobile .navigazione-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
 .hamburger div {
   width: 25px;
   height: 5px;
